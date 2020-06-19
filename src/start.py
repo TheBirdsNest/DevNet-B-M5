@@ -28,7 +28,7 @@ def index():
     model and the view.
     """
 
-    # The button click within the view kicks off a POST request ...
+    # The button click within the view kicks off a POST request
     if request.method == "POST":
 
         # This collects the user input from the view. The controller's job
